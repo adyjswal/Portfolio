@@ -65,7 +65,7 @@ function App() {
                   <input className="h-12 p-3 w-full text-white bg-custom-grey" type="text" name="contact no" placeholder="Contact No" required /><br /><br />
                   <textarea className="p-3 text-white bg-custom-grey" name="message" rows="6" cols="90" placeholder="Message"></textarea><br /><br />
                   <div className="h-12 w-48 mx-64 bg-white hover:bg-green-500 rounded inline-block cursor-pointer duration-700">
-                    <button className="h-10 w-48 font-bold bg-green-500 hover:bg-white hover:text-green-500 rounded duration-700" type="submit">Submit</button>
+                    <button className="h-10 w-48 font-bold bg-green-500 hover:bg-white hover:text-green-500 rounded transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-700" type="submit">Submit</button>
                   </div>
                 </form>
               </div>
