@@ -30,7 +30,7 @@ function App() {
       </header>
       <main>
         <div>
-          <section className="h-screen" id="home">
+          <section className="h-screen bg-blue-500" id="home">
             <div className="h-96 flex justify-center items-center">
               <div>Home Section</div>
             </div>
